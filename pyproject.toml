@@ -1,0 +1,14 @@
+[project]
+name = "sdk"
+version = "0.1.0"
+description = "Python client SDK for interacting with the core inference API"
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.4"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
